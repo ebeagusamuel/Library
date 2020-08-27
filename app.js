@@ -16,7 +16,6 @@ function addBookToLibrary(){
   let read = document.getElementById('read').value;
 
   let book = new Book(title, author, pages, read);
-  library.push(book)
-  
+  library.push(book) 
 }
 
