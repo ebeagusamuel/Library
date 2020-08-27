@@ -5,9 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book Library</title>
   <link rel="stylesheet" href="style.css">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
   <script src="app.js"></script>
 </head>
 <body>
-  
+  <!-- <div class="bg-modal"> -->
+      <!-- <div class="modal-content">
+        <div class="close">+</div>
+        <h1 id="modal-title">New Book</h1>
+        <form action="" id="form">
+          <input
+            type="text"
+            name="title"
+            id="title"
+            placeholder="Title"
+            required
+          />
+          <input
+            type="text"
+            name="author"
+            id="author"
+            placeholder="Author"
+            required
+          />
+          <input
+            type="number"
+            name="pages"
+            id="pages"
+            min="5"
+            placeholder="Number of pages"
+            required
+          />
+          <select name="read" id="read">
+            <option value="yes">Already read</option>
+            <option value="no" selected>Not read yet</option>
+          </select>
+
+          <button type="submit" id="addBook">Add book</button>
+          <button id="cancel">Cancel</button>
+        </form>
+      </div>
+    </div> -->
+  <header>
+      <h1 id="headerTitle">My Library</h1>
+      <div>
+        <button class="btnNewBook" id="newBook">New Book</button>
+        <select name="sort" id="sort">
+          <option value="" disabled selected hidden>Sort</option>
+          <option value="asc">Sort A-Z</option>
+          <option value="read-first">Read first</option>
+          <option value="unread-first">Unread first</option>
+        </select>
+      </div>
+    </header>
+
 </body>
 </html>
