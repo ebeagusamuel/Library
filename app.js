@@ -1,4 +1,5 @@
 let library = []
+let index = -1;
 const form = document.getElementById('form')
 
 function Book(title, author, numOfPages, read = false){
@@ -23,6 +24,9 @@ function addBookToLibrary(e){
 
 form.addEventListener('submit', e => {
   e.preventDefault();
+
+  index += 1;
+
   let title = e.target.elements.title.value;
   let author = e.target.elements.author.value;
   let pages = e.target.elements.pages.value;
@@ -30,7 +34,9 @@ form.addEventListener('submit', e => {
 
   addBookToLibrary(title, author, pages, read);
 
-  render()
+  document.getElementById('close-modal').click();
+  
+  render();
 })
 
 function render(){
@@ -45,19 +51,19 @@ function render(){
 
   var firstList = document.createElement('li');
   firstList.classList.add('list-group-item')
-  firstList.textContent = `Title: ${library[0].title}`;
+  firstList.textContent = `Title: ${library[index].title}`;
 
   var secondList = document.createElement('li');
   secondList.classList.add('list-group-item')
-  secondList.textContent = `Author: ${library[0].author}`
+  secondList.textContent = `Author: ${library[index].author}`
 
   var thirdList = document.createElement('li');
-  thirdList.classList.add('list-group-item')
-  thirdList.textContent = `Pages: ${library[0].numOfPages}`
+  thirdList.classList.add('list-group-item');
+  thirdList.textContent = `Pages: ${library[index].numOfPages}`;
 
   var fourthList = document.createElement('li');
   fourthList.classList.add('list-group-item')
-  fourthList.textContent = `Pages: ${library[0].read}`
+  fourthList.textContent = `Read: ${library[index].read}`
 
   var fifthList = document.createElement('li');
   fifthList.classList.add('list-group-item')
@@ -79,5 +85,14 @@ function render(){
 
   var container = document.getElementById('card-container');
   container.appendChild(div);
+
+  clearInputField()
+
+}
+
+function clearInputField(){
+  document.getElementById('title').value = '';
+  document.getElementById('author').value = '';
+  document.getElementById('pages').value = '';
 }
 
