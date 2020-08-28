@@ -120,10 +120,9 @@ table {
 }
 
 header {
-  position: relative;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; */
   height: 70px;
   width: 100%;
   background-color: rgba(39, 131, 236, 0.4);
