@@ -10,7 +10,6 @@ function Book(title, author, numOfPages, read = false){
   this.info =  () => `${this.title} by ${this.author}, ${this.numOfPages} pages, read: ${this.read}.`
 }
 
-
 function addBookToLibrary(e){
   let title = document.getElementById('title').value
   let author = document.getElementById('author').value
@@ -35,7 +34,7 @@ form.addEventListener('submit', e => {
   addBookToLibrary(title, author, pages, read);
 
   document.getElementById('close-modal').click();
-  
+
   render();
 })
 
@@ -96,3 +95,8 @@ function clearInputField(){
   document.getElementById('pages').value = '';
 }
 
+document.querySelector('#card-container').addEventListener('click', e => {
+  if(e.target.innerHTML == 'Delete'){
+    e.target.parentElement.parentElement.parentElement.remove()
+  }
+})
