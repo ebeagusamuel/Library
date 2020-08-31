@@ -8,23 +8,9 @@
 -->
 
 <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
-<!-- PROJECT LOGO -->
-<br />
 <p align="center">
-  <a href="https://github.com/jstloyal/Members_Only_App">
+  <a href="https://github.com/ebeagusamuel/Library">
     <img src="img/microverse.png" alt="Microverse Logo" width="80" height="80">
   </a>
 
@@ -39,15 +25,13 @@
 
 - [About the Project](#about-the-project)
 - [Contributors](#contributors)
-- [Live Version](#live-version)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
-<!-- ABOUT THE PROJECT -->
-
 ## About The Project
 
-A Library app where you can add books and mark whether you've read the book or not. You can add and delete book from the library. Note that, once the page is refreshed the book lists will go away since we are not using any external storage!
+A Library app where you can add books and mark whether you've read the book or not. You can add and delete book from the library.
+Note that this is just a practice app, once the page is refreshed the book lists will go away since we are not using any external storage!
 
 ## Contributing
 
@@ -75,16 +59,16 @@ This project was built using these technologies.
 
 **Author1**
 
-​## Adetayo Sunkanmi
+**Ebeagu Samuel**
 
-- Github: [@jstloyal](https://github.com/jstloyal)
-- Twitter: [@jstloyalty](https://twitter.com/jstloyalty)
-- Linkedin: [Adetayo Sunkanmi](https://www.linkedin.com/in/jstloyalty)
-- E-mail: jstloyalty@gmail.com
+- Github: [ebeagusamuel](https://github.com/ebeagusamuel)
+- Twitter: [@ebeagu_samuel](https://twitter.com/ebeagu_samuel)
+- Linkedin: [Ebeagu Samuel](https://www.linkedin.com/in/ebeagusamuel)
+- E-mail: samuelebeagu@gmail.com
 
 **Author2**
 
-​## Adetayo Sunkanmi
+​**Adetayo Sunkanmi**
 
 - Github: [@jstloyal](https://github.com/jstloyal)
 - Twitter: [@jstloyalty](https://twitter.com/jstloyalty)
@@ -97,21 +81,6 @@ This project was built using these technologies.
 
 - [Microverse](https://www.microverse.org/)
 - [The Odin Project](https://www.theodinproject.com/)
-- [Rails Documentation](https://guides.rubyonrails.org/)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[contributors-shield]: https://img.shields.io/github/contributors/jstloyal/Members_Only_App.svg?style=flat-square
-[contributors-url]: https://github.com/jstloyal/Members_Only_App/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/jstloyal/Members_Only_App.svg?style=flat-square
-[forks-url]: https://github.com/jstloyal/Members_Only_App/network/members
-[stars-shield]: https://img.shields.io/github/stars/jstloyal/Members_Only_App.svg?style=flat-square
-[stars-url]: https://github.com/jstloyal/Members_Only_App/stargazers
-[issues-shield]: https://img.shields.io/github/issues/jstloyal/Members_Only_App.svg?style=flat-square
-[issues-url]: https://github.com/jstloyal/Members_Only_App/issues
-
-<!-- LICENSE -->
 
 ## License
 
