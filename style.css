@@ -1,0 +1,97 @@
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.modal-content {
+  position: relative;
+  width: 50rem;
+  background-color: white;
+  border-radius: 0.9rem;
+  padding: 4rem;
+}
+
+.modal-content h1 {
+  font-size: 2rem;
+}
+
+.modal-content input {
+  width: 90%;
+  font-size: 1.7rem;
+  padding: 1rem 1.5rem;
+  margin: 1rem auto;
+  background-color: rgb(214, 220, 238);
+  border: none;
+  border-radius: 3px;
+}
+
+.modal-content input::placeholder {
+  color: rgb(90, 111, 172);
+}
+
+.modal-content select {
+  width: 90%;
+  font-size: 1.7rem;
+  padding: 1rem 1.5rem;
+  margin: 1rem auto;
+  background-color: rgb(214, 220, 238);
+  border: none;
+  border-radius: 3px;
+  color: rgb(90, 111, 172);
+}
+
+.modal-content button {
+  float: right;
+  padding: 1rem 2rem 1rem 0.8rem;
+  margin: 1rem 1rem;
+  font-size: 1.5rem;
+  font-family: "Varela round", sans-serif;
+  color: white;
+  background-color: #33c55f;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+#cancel {
+  background-color: #c21f1f;
+}
+
+#cancel::before {
+  content: "x ";
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  font-size: 3.5rem;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  transform: rotate(45deg);
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.btnNewBook {
+  margin-right: 1rem;
+  padding: 1rem 2rem;
+  color: #fff;
+  border-radius: 3px;
+  background-color: #33c55f;
+  border: none;
+}
