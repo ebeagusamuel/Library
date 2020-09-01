@@ -39,7 +39,7 @@ Note that this is just a practice app, once the page is refreshed the book lists
   </a>
 </p>
 
-[Project live link](https://ebeagusamuel.github.io/Library/index.html)
+[Project live link](https://ebeagusamuel.github.io/Library/)
 
 
 
