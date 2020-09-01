@@ -33,6 +33,12 @@
 A Library app where you can add books and mark whether you've read the book or not. You can add and delete book from the library.
 Note that this is just a practice app, once the page is refreshed the book lists will go away since we are not using any external storage!
 
+<p align="center">
+  <a href="https://github.com/ebeagusamuel/Library">
+    <img src="img/my-library.png" alt="Microverse Logo" width="750" height="300">
+  </a>
+</p>
+
 ## Contributing
 
 Contributions, issues and feature requests are welcome! Start by:
